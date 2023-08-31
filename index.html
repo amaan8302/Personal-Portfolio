@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Amaan's personal Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="first">
+        <div class="leftsection">
+          <i>Hi, My name is <strong>AMAAN ULLAH SIDDIQUI</strong></i>
+          <div><i>Welcome to my Portfolio😊</i></div>
+          <span id="element"></span>
+        </div>
+        <div class="buttons">
+          <button
+            class="bb"
+            onclick="location.href='https://drive.google.com/file/d/1gtLKn5iYihLDGxF7R0AXwasrEcp38thI/view?usp=sharing'"
+          >
+            Click here to <b>VIEW RESUME</b>
+          </button>
+        </div>
+        <div class="rightsection"><img src="img2.jpg" alt="img" /></div>
+      </section>
+      <hr />
+      <section class="second">
+        <span id="newscript"></span>
+        <h1>ACADEMICS</h1>
+        <div class="box">
+          <div class="vertical1">
+            <img
+              src="dpsbhopal-logo1.png"
+              alt="vercial1image"
+              class="vercial1image"
+            />
+            <div class="vertical-title">CLASS 10TH</div>
+          </div>
+          <div class="vertical-description1">
+            Completed from Delhi Public School, Neelbad Bhopal a CBSE affiliated
+            school and secured <b>84.4%</b>
+          </div>
+          <div class="vertical2">
+            <img src="dpsbhopal-logo1.png" alt="" class="vercial2image" />
+            <div class="vertical-title">CLASS 12TH</div>
+            <div class="vertical-description2">
+              Completed from Delhi Public School, Neelbad Bhopal a CBSE
+              affiliated school and secured <b>85.67%</b>
+            </div>
+          </div>
+          <div class="vertical3">
+            <img src="iiitbhopal.webp" alt="" class="vercial3image" />
+            <div class="vertical-title3">BTech IIIT Bhopal</div>
+          </div>
+          <div class="vertical-description3">
+            Pursuing BTech at Indian Institute of Information Technology,
+            Bhopal. From 16th November 2021 to November 2025 with a current gpa
+            of 7.32/10
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "<b>WEB DEVELOPER</b>",
+          "<b>DSA Enthusiasts</b>",
+          "<b>IIIT Sophomore</b>",
+        ],
+        typeSpeed: 38,
+      });
+      var typed = new Typed("#newscript", {
+        strings: ["<b>Following are my few academic achievements</b>"],
+        typeSpeed: 20,
+      });
+    </script>
+  </body>
+</html>
